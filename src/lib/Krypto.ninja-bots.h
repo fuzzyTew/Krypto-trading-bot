@@ -845,7 +845,7 @@ namespace ₿ {
     public:
       virtual const mMatter about() const = 0;
       const bool persist() const {
-        return about() == mMatter::QuotingParameters;
+        return about() == mMatter::QuotingParameters || about() == mMatter::Profit;
       };
   };
 
